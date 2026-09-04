@@ -1,0 +1,193 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../kourier-ui/0.0.5/kourier-ui-0.0.5.module",
+    "group": "dev.shushant.kourier",
+    "module": "kourier-ui",
+    "version": "0.0.5",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.7.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "androidApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kourier-ui.aar",
+          "url": "kourier-ui-android-0.0.5.aar",
+          "size": 550977,
+          "sha512": "5f41b64734c5dcfdff1d3ccbc714892b55cbe34ac282ca3c51ae3a8f21e56d325200f5827a910bc15946cb323e87a7bbd8d5ec72ec95ccf1caf20b7faa32bb5c",
+          "sha256": "882b943792a634535a9fc49c5b747df50fb79db6ae6612fc5240715ba376c3fb",
+          "sha1": "b1c2028c964b1508de868a392829989bc30d9cfe",
+          "md5": "2a36780f2548ae7a5041dee18f38342b"
+        }
+      ]
+    },
+    {
+      "name": "androidRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.10"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.19.0"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "androidx.activity",
+          "module": "activity-compose",
+          "version": {
+            "requires": "1.13.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-android",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "dev.shushant.kourier",
+          "module": "kourier-core",
+          "version": {
+            "requires": "0.0.5"
+          }
+        },
+        {
+          "group": "dev.shushant.kourier",
+          "module": "kourier-storage",
+          "version": {
+            "requires": "0.0.5"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.12.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.12.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.animation",
+          "module": "animation",
+          "version": {
+            "requires": "1.12.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material",
+          "module": "material",
+          "version": {
+            "requires": "1.12.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material",
+          "module": "material-icons-extended",
+          "version": {
+            "requires": "1.7.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.ui",
+          "module": "ui",
+          "version": {
+            "requires": "1.12.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kourier-ui.aar",
+          "url": "kourier-ui-android-0.0.5.aar",
+          "size": 550977,
+          "sha512": "5f41b64734c5dcfdff1d3ccbc714892b55cbe34ac282ca3c51ae3a8f21e56d325200f5827a910bc15946cb323e87a7bbd8d5ec72ec95ccf1caf20b7faa32bb5c",
+          "sha256": "882b943792a634535a9fc49c5b747df50fb79db6ae6612fc5240715ba376c3fb",
+          "sha1": "b1c2028c964b1508de868a392829989bc30d9cfe",
+          "md5": "2a36780f2548ae7a5041dee18f38342b"
+        }
+      ]
+    },
+    {
+      "name": "androidSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "kourier-ui-android-0.0.5-sources.jar",
+          "url": "kourier-ui-android-0.0.5-sources.jar",
+          "size": 117870,
+          "sha512": "734ed5972c6668767d7e61c544bdb6fdf1db0f0d19831c910a3f9fd857b11fc5fe19150f6b7cddb6a9e706854ac397bad749c8f2c725a3dcec9e32ae587991ff",
+          "sha256": "4057be0529d3cc695c0e22903246908d9e78af731da79aa523872093c452feb4",
+          "sha1": "12d0e6f1126e7f3632563beee8dcedf8353add1f",
+          "md5": "d1befa4ca0be6b90fc7a45a7fbe424e7"
+        }
+      ]
+    }
+  ]
+}

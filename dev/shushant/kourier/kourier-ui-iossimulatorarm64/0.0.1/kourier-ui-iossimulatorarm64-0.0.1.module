@@ -1,0 +1,323 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../kourier-ui/0.0.1/kourier-ui-0.0.1.module",
+    "group": "dev.shushant.kourier",
+    "module": "kourier-ui",
+    "version": "0.0.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.7.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.10"
+          }
+        },
+        {
+          "group": "dev.shushant.kourier",
+          "module": "kourier-core",
+          "version": {
+            "requires": "0.0.1"
+          }
+        },
+        {
+          "group": "dev.shushant.kourier",
+          "module": "kourier-storage",
+          "version": {
+            "requires": "0.0.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.12.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.12.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.animation",
+          "module": "animation",
+          "version": {
+            "requires": "1.12.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material",
+          "module": "material",
+          "version": {
+            "requires": "1.12.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material",
+          "module": "material-icons-extended",
+          "version": {
+            "requires": "1.7.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.ui",
+          "module": "ui",
+          "version": {
+            "requires": "1.12.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kourier-ui-iosSimulatorArm64Main-0.0.1.klib",
+          "url": "kourier-ui-iossimulatorarm64-0.0.1.klib",
+          "size": 367660,
+          "sha512": "5e14c692df361591aeedaeb90e8ecb52c3e49507693a078139630e55503ea8a41cc760375797a41fc7413be9f2576525e95bd3a008cd6cca46a10688e8152ebc",
+          "sha256": "1ac518d20646cf250e0727fb106a2655055311267d95c96c6517c0c6323bb669",
+          "sha1": "396930c61b09feeea415e15201b5b5dd7dc1ea1b",
+          "md5": "91df2626af43d5212a8293092b396d1a"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "kourier-ui-iossimulatorarm64-0.0.1-sources.jar",
+          "url": "kourier-ui-iossimulatorarm64-0.0.1-sources.jar",
+          "size": 76363,
+          "sha512": "1abc77530eafb4966bd7c1597d3c460f5187a5caf0e2921cb87ea505da4f6693c93c74642948dafcf560b569820c66987d65e26458dac0217546b65998843c16",
+          "sha256": "e9f9c8d230c5a29cf3cd3af427771377d3f05b25626c1561647913cd8d3e3b71",
+          "sha1": "0ddc85c0aa8f9ee48988d186a8d931faf3636c30",
+          "md5": "21afb44382b28d05ade5b1e26cfdb66f"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64ResourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.libraryelements": "kotlin-multiplatformresources",
+        "org.gradle.usage": "kotlin-multiplatformresources",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.10"
+          }
+        },
+        {
+          "group": "dev.shushant.kourier",
+          "module": "kourier-core",
+          "version": {
+            "requires": "0.0.1"
+          }
+        },
+        {
+          "group": "dev.shushant.kourier",
+          "module": "kourier-storage",
+          "version": {
+            "requires": "0.0.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.12.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.12.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.animation",
+          "module": "animation",
+          "version": {
+            "requires": "1.12.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material",
+          "module": "material",
+          "version": {
+            "requires": "1.12.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material",
+          "module": "material-icons-extended",
+          "version": {
+            "requires": "1.7.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.ui",
+          "module": "ui",
+          "version": {
+            "requires": "1.12.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kourier-ui-0.0.1.kotlin_resources.zip",
+          "url": "kourier-ui-iossimulatorarm64-0.0.1-kotlin_resources.kotlin_resources.zip",
+          "size": 350,
+          "sha512": "bb6c7a643c8b55823cf31efaf7dd243c7a59399410e17ea3688ebed3e3c203a37b66f5a7369c9dec79f6f69c8c2401b28ee07e302d7712a483aa8cc76fbbcc4a",
+          "sha256": "4c0fe9605ed3077be5067b940f0b4f01b373b50bc786aecda82bfd01abcff27d",
+          "sha1": "7bea25f177125c8f70dc8c16582c0b65097e1198",
+          "md5": "7a66a705fa2767da7e5d6df647e19c59"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.10"
+          }
+        },
+        {
+          "group": "dev.shushant.kourier",
+          "module": "kourier-core",
+          "version": {
+            "requires": "0.0.1"
+          }
+        },
+        {
+          "group": "dev.shushant.kourier",
+          "module": "kourier-storage",
+          "version": {
+            "requires": "0.0.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.12.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.12.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.animation",
+          "module": "animation",
+          "version": {
+            "requires": "1.12.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material",
+          "module": "material",
+          "version": {
+            "requires": "1.12.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material",
+          "module": "material-icons-extended",
+          "version": {
+            "requires": "1.7.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.ui",
+          "module": "ui",
+          "version": {
+            "requires": "1.12.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kourier-ui-iossimulatorarm64-0.0.1-metadata.jar",
+          "url": "kourier-ui-iossimulatorarm64-0.0.1-metadata.jar",
+          "size": 6622,
+          "sha512": "a0a2d5758e982db0fd4aba3578cb5aa4b00cf2df3c10c94ae77efd9d9e665fcb61c939b2832584b8f547baa1a1ef7d63fe6411d7bfcc449a16c802605424dfd6",
+          "sha256": "2483ef7343192ce77b4225f3c69ec24548fd3d0fa1d6a001be3b0879591c7e6e",
+          "sha1": "76cabb86f5d70b499520c321e57729d129d1eefa",
+          "md5": "fb12e78f5b81524dcb013296bb4da2e6"
+        }
+      ]
+    }
+  ]
+}
