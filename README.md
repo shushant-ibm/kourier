@@ -112,22 +112,19 @@ Compose Multiplatform requires the following key in your iOS host application `I
 
 ---
 
-### 🤖 Android Integration (GitHub Packages Maven)
+### 🤖 Android Integration (Zero Credentials Required)
 
-#### 1. Add GitHub Packages Repository (`settings.gradle.kts`)
+Kourier Android is hosted as a public Maven repository on GitHub. **No Personal Access Tokens (PAT), tokens, or credentials are required.**
+
+#### 1. Add Public Maven Repository (`settings.gradle.kts`)
 
 ```kotlin
 dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
-        maven {
-            url = uri("https://maven.pkg.github.com/shushant-ibm/kourier")
-            credentials {
-                username = providers.gradleProperty("gpr.user").orNull ?: System.getenv("GITHUB_ACTOR") ?: ""
-                password = providers.gradleProperty("gpr.key").orNull ?: System.getenv("GITHUB_TOKEN") ?: ""
-            }
-        }
+        // Kourier Public Maven Repository (Zero credentials / No PAT needed)
+        maven { url = uri("https://raw.githubusercontent.com/shushant-ibm/kourier/mvn-repo") }
     }
 }
 ```
