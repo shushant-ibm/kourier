@@ -15,8 +15,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "KourierIos",
-            url: "https://github.com/shushant-ibm/kourier/releases/download/v0.0.3/KourierIos.xcframework.zip",
-            checksum: "ed65118045dd35e37f7af7bc6564b2781a0fe0d6ee70a6b7a41c8b1086d9ff22"
+            url: "https://github.com/shushant-ibm/kourier/releases/download/v0.0.4/KourierIos.xcframework.zip",
+            checksum: "58d0d5790cdaee91fb194714145bd6733ef96d72437626412ad44d8cabcbb38c"
         )
     ]
 )
