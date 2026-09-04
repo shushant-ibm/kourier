@@ -37,11 +37,11 @@
         {
           "name": "kourier-ui.aar",
           "url": "kourier-ui-android-0.0.5.aar",
-          "size": 550977,
-          "sha512": "5f41b64734c5dcfdff1d3ccbc714892b55cbe34ac282ca3c51ae3a8f21e56d325200f5827a910bc15946cb323e87a7bbd8d5ec72ec95ccf1caf20b7faa32bb5c",
-          "sha256": "882b943792a634535a9fc49c5b747df50fb79db6ae6612fc5240715ba376c3fb",
-          "sha1": "b1c2028c964b1508de868a392829989bc30d9cfe",
-          "md5": "2a36780f2548ae7a5041dee18f38342b"
+          "size": 551971,
+          "sha512": "2fc5de3d0e72f475eca72ac3ee634dab8cb48d36781e96fde108e2796a06acc2fe018a872fb927178494d177530519a1b415c3878ca83bb07484061b879bd6f0",
+          "sha256": "8056ab707cfe745522a5d0e0908c48005d988925a399b1634190a720f02f5131",
+          "sha1": "f22496edf215cbe2bd080cebe1caed7e9df15995",
+          "md5": "9137300395da76bafebbd4457273621e"
         }
       ]
     },
@@ -158,11 +158,11 @@
         {
           "name": "kourier-ui.aar",
           "url": "kourier-ui-android-0.0.5.aar",
-          "size": 550977,
-          "sha512": "5f41b64734c5dcfdff1d3ccbc714892b55cbe34ac282ca3c51ae3a8f21e56d325200f5827a910bc15946cb323e87a7bbd8d5ec72ec95ccf1caf20b7faa32bb5c",
-          "sha256": "882b943792a634535a9fc49c5b747df50fb79db6ae6612fc5240715ba376c3fb",
-          "sha1": "b1c2028c964b1508de868a392829989bc30d9cfe",
-          "md5": "2a36780f2548ae7a5041dee18f38342b"
+          "size": 551971,
+          "sha512": "2fc5de3d0e72f475eca72ac3ee634dab8cb48d36781e96fde108e2796a06acc2fe018a872fb927178494d177530519a1b415c3878ca83bb07484061b879bd6f0",
+          "sha256": "8056ab707cfe745522a5d0e0908c48005d988925a399b1634190a720f02f5131",
+          "sha1": "f22496edf215cbe2bd080cebe1caed7e9df15995",
+          "md5": "9137300395da76bafebbd4457273621e"
         }
       ]
     },
@@ -181,11 +181,11 @@
         {
           "name": "kourier-ui-android-0.0.5-sources.jar",
           "url": "kourier-ui-android-0.0.5-sources.jar",
-          "size": 117870,
-          "sha512": "734ed5972c6668767d7e61c544bdb6fdf1db0f0d19831c910a3f9fd857b11fc5fe19150f6b7cddb6a9e706854ac397bad749c8f2c725a3dcec9e32ae587991ff",
-          "sha256": "4057be0529d3cc695c0e22903246908d9e78af731da79aa523872093c452feb4",
-          "sha1": "12d0e6f1126e7f3632563beee8dcedf8353add1f",
-          "md5": "d1befa4ca0be6b90fc7a45a7fbe424e7"
+          "size": 117987,
+          "sha512": "88144b199623bd1e0eac1fc81eca6c95d3bc04f24d0af91ee22cd5150f26cf1b532ce01bfb5a9a9c3ecf9ff5939faefa861682ee6002a486832ceb099fc635a6",
+          "sha256": "d8cbedf9aac6bed28524fe33497df67f6c66a4810e788b195d053a1ff771d5ad",
+          "sha1": "d31da7dedf14044de87f2a65bd9710bf7ed6b54f",
+          "md5": "b05041f11728b7ae4ae7f0e009bce96d"
         }
       ]
     }

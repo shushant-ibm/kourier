@@ -120,11 +120,11 @@
         {
           "name": "kourier-ui-kotlin-0.0.5-sources.jar",
           "url": "kourier-ui-0.0.5-sources.jar",
-          "size": 117686,
-          "sha512": "4d41b431ca4e0dc0a0420f1c104ed6a3cbd5b986ac0fa1175a0a14247b34ae08c4febbe115750050870c3f0b5452640b2b9d2f4e3ead39992ccc8dfd2880f9f9",
-          "sha256": "d1f0265456126351f8238dca4f4e3899f23f7eab62f8daf3958212f1fc01e709",
-          "sha1": "361e248a01f4fa4f14148c1ff124f4b8965ebbf4",
-          "md5": "ac2ac476ba6863c9004f0aa31ddd64b5"
+          "size": 117925,
+          "sha512": "17ac70c58578c4d55af52e604e2975a7ac42f419d17895cc25fde64449217d8ddf148264549e736a9bdc8ebd40fef328491440e468695292e35f02b49adc7a7e",
+          "sha256": "14a4d1aa3e71f8a55dd1b42784eefc75aa5b6a90a80f614f328e30f0a10f6531",
+          "sha1": "fb703943c8e3ec6c3ed80894daf9ee65aceed3bd",
+          "md5": "7855cf76b9c70662161ee16ea48035ee"
         }
       ]
     },
