@@ -8,15 +8,30 @@ let package = Package(
     ],
     products: [
         .library(
+            name: "Kourier",
+            targets: ["KourierSwift", "KourierIos"]
+        ),
+        .library(
             name: "KourierIos",
             targets: ["KourierIos"]
         ),
     ],
     targets: [
+        .target(
+            name: "KourierSwift",
+            dependencies: [
+                "KourierIos"
+            ],
+            path: "Sources/KourierSwift",
+            linkerSettings: [
+                .linkedLibrary("sqlite3"),
+                .linkedLibrary("c++")
+            ]
+        ),
         .binaryTarget(
             name: "KourierIos",
-            url: "https://github.com/shushant-ibm/kourier/releases/download/v0.0.8/KourierIos.xcframework.zip",
-            checksum: "a5afd17e060c641bf49a044717735868b69a8a3245a7997a0c18ec5e9934e573"
+            url: "https://github.com/shushant-ibm/kourier/releases/download/v0.0.9/KourierIos.xcframework.zip",
+            checksum: "f4dabed28b73c5696066c3246ef6299f13cb4e4f0eecc4b18964ee8a7e087922"
         )
     ]
 )

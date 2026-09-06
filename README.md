@@ -12,35 +12,35 @@ Inspect, debug, and share HTTP/HTTPS traffic directly on-device in real-time —
 
 ## 💡 Why Kourier?
 
-Modern mobile teams waste hours debugging network issues in the field, configuring proxy certificates, setting up VPN tunnels, and diagnosing failed API responses on QA builds. **Kourier solves this directly on-device.**
+Modern mobile teams waste hours debugging network issues in the field, configuring proxy certificates, setting up VPN tunnels, and diagnosing failed API responses on QA builds. **Kourier solves t[...]
 
 ```
-┌─────────────────────────────────────────────────────────────────────────────────┐
+┌────────────────────────────────────────────────────────────────[...]
 │                                 KOURIER SDK                                     │
-├──────────────────────────┬──────────────────────────┬───────────────────────────┤
+├──────────────────────────┬──────────────────────────┬──────────[...]
 │   🚀 Zero Configuration   │   📱 On-Device Inspector │   🛡️ Privacy & Security   │
 │   No proxy certificates  │   Native Compose UI      │   Automatic token &       │
 │   No Mac/PC tethering    │   Dark / Light themes    │   credential redaction    │
 │   No VPN profiles        │   Phone & Tablet split   │   Configurable caps       │
-├──────────────────────────┼──────────────────────────┼───────────────────────────┤
+├──────────────────────────┼──────────────────────────┼──────────[...]
 │   📤 1-Tap Multi-Export  │   ⚡ Zero Release Cost   │   🌐 Universal Clients    │
 │   WhatsApp, Slack format │   kourier-noop stub      │   OkHttp, Ktor 3.x,       │
 │   HAR 1.2 for Proxyman   │   0 KB background runs   │   URLSession, Alamofire   │
 │   Executable cURL        │   Stripped bytecode      │   Moya                    │
-└──────────────────────────┴──────────────────────────┴───────────────────────────┘
+└──────────────────────────┴──────────────────────────┴──────────[...]
 ```
 
 ### 🔑 Key Advantages
 
-- 🚫 **No Proxies, No VPNs, No Root Certificates:** Debug live traffic on physical devices during field tests, remote client demos, and QA runs without network configurations or SSL pinning bypass scripts.
+- 🚫 **No Proxies, No VPNs, No Root Certificates:** Debug live traffic on physical devices during field tests, remote client demos, and QA runs without network configurations or SSL pinning byp[...]
 - 📱 **True Multiplatform Uniformity:** Single unified inspection mental model and telemetry format across Android and iOS.
-- 🎨 **Studio-Grade Adaptive UI:** Designed with Compose Multiplatform featuring Obsidian Slate (Dark) and Studio Daylight (Light) themes, real-time query/method filtering, JSON syntax formatting, and adaptive split-pane views on iPad/tablets.
+- 🎨 **Studio-Grade Adaptive UI:** Designed with Compose Multiplatform featuring Obsidian Slate (Dark) and Studio Daylight (Light) themes, real-time query/method filtering, JSON syntax formatti[...]
 - 📤 **Instant Bug Reporting & Exporting:**
   - 💬 **Formatted Plain Text:** Designed for instant copy-pasting into **WhatsApp**, **Slack**, **Telegram**, or **Apple Notes**.
   - 📄 **Diagnostic Report (.txt):** Complete request/response telemetry attachment.
   - 📦 **HAR 1.2 Archive (.har):** Import directly into Proxyman, Charles Proxy, Chrome DevTools, or Postman.
   - 🌐 **cURL Snippet:** 1-tap copy to replay the exact request from terminal.
-- 🛡️ **Enterprise Privacy & Security:** Recursive data masker automatically scrubs sensitive headers (`Authorization`, `Cookie`, `X-Api-Key`) and JSON keys (`password`, `token`, `secret`, `ssn`, `credit_card`).
+- 🛡️ **Enterprise Privacy & Security:** Recursive data masker automatically scrubs sensitive headers (`Authorization`, `Cookie`, `X-Api-Key`) and JSON keys (`password`, `token`, `[...]
 - ⚡ **Zero-Overhead Release Builds:** Ship with `kourier-noop` in release builds for zero memory footprint, stripped bytecode, and no background services.
 
 ---
@@ -54,13 +54,13 @@ Kourier iOS is distributed as a pre-compiled binary XCFramework supporting **bot
 #### 1. Add Package Dependency
 In Xcode: **File > Add Package Dependencies...**
 - **Repository URL:** `https://github.com/shushant-ibm/kourier.git`
-- **Dependency Rule:** `Up to Next Major` from `0.0.7` (or exact version `0.0.7`)
+- **Dependency Rule:** `Up to Next Major` from `0.0.9` (or exact version `0.0.9`)
 - Add **`KourierIos`** to your target.
 
 *Or via `Package.swift`:*
 ```swift
 dependencies: [
-    .package(url: "https://github.com/shushant-ibm/kourier.git", from: "0.0.7")
+    .package(url: "https://github.com/shushant-ibm/kourier.git", from: "0.0.9")
 ]
 ```
 
@@ -134,10 +134,10 @@ dependencyResolutionManagement {
 ```kotlin
 dependencies {
     // Debug builds: Full in-app inspector UI, floating bubble, notification, & interceptors
-    debugImplementation("dev.shushant.kourier:kourier-android:0.0.7")
+    debugImplementation("dev.shushant.kourier:kourier-android:0.0.9")
 
     // Release builds: Zero-cost pass-through stubs (0KB background services, stripped bytecode)
-    releaseImplementation("dev.shushant.kourier:kourier-noop:0.0.7")
+    releaseImplementation("dev.shushant.kourier:kourier-noop:0.0.9")
 }
 ```
 
