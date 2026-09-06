@@ -1,0 +1,219 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.shushant.kourier",
+    "module": "kourier-noop",
+    "version": "0.0.10",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.7.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kourier-noop-metadata-0.0.10.jar",
+          "url": "kourier-noop-0.0.10.jar",
+          "size": 4295,
+          "sha512": "5aa0aa522e2403dd54ccd6e11d6335d2fb8b3ba411103407ba7253a75b13d130bead4aeaa659ebed5106b865622006a15b82f0deeded4584e446357ffacec496",
+          "sha256": "b4f5e13110aaf9985c22eb7838de661a8dc067d35e90a9fa7522c8243115689b",
+          "sha1": "f499433d9145520848e23d1832b4ec41e478cf70",
+          "md5": "053d9c2268217d44d5d45d3b9f176371"
+        }
+      ]
+    },
+    {
+      "name": "metadataSourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "kourier-noop-kotlin-0.0.10-sources.jar",
+          "url": "kourier-noop-0.0.10-sources.jar",
+          "size": 4711,
+          "sha512": "1c17a44905320fd88d707e9fa0028cf4104f6a08af27ea53d6e046218891881b829319ba4101cbfc3a42d5b3a249115b4398962537315719d12c8eb7207846b9",
+          "sha256": "204eff0e9690e83de3953667920b0d44cff25f3fe975d69418b68943a04608cd",
+          "sha1": "c203b269d7638e03c6d27742a131c779d8c131d4",
+          "md5": "ff4429c5a06336ecc8fcf1045a92b0fc"
+        }
+      ]
+    },
+    {
+      "name": "androidApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../kourier-noop-android/0.0.10/kourier-noop-android-0.0.10.module",
+        "group": "dev.shushant.kourier",
+        "module": "kourier-noop-android",
+        "version": "0.0.10"
+      }
+    },
+    {
+      "name": "androidRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../kourier-noop-android/0.0.10/kourier-noop-android-0.0.10.module",
+        "group": "dev.shushant.kourier",
+        "module": "kourier-noop-android",
+        "version": "0.0.10"
+      }
+    },
+    {
+      "name": "androidSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../kourier-noop-android/0.0.10/kourier-noop-android-0.0.10.module",
+        "group": "dev.shushant.kourier",
+        "module": "kourier-noop-android",
+        "version": "0.0.10"
+      }
+    },
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../kourier-noop-iosarm64/0.0.10/kourier-noop-iosarm64-0.0.10.module",
+        "group": "dev.shushant.kourier",
+        "module": "kourier-noop-iosarm64",
+        "version": "0.0.10"
+      }
+    },
+    {
+      "name": "iosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../kourier-noop-iosarm64/0.0.10/kourier-noop-iosarm64-0.0.10.module",
+        "group": "dev.shushant.kourier",
+        "module": "kourier-noop-iosarm64",
+        "version": "0.0.10"
+      }
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../kourier-noop-iosarm64/0.0.10/kourier-noop-iosarm64-0.0.10.module",
+        "group": "dev.shushant.kourier",
+        "module": "kourier-noop-iosarm64",
+        "version": "0.0.10"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../kourier-noop-iossimulatorarm64/0.0.10/kourier-noop-iossimulatorarm64-0.0.10.module",
+        "group": "dev.shushant.kourier",
+        "module": "kourier-noop-iossimulatorarm64",
+        "version": "0.0.10"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../kourier-noop-iossimulatorarm64/0.0.10/kourier-noop-iossimulatorarm64-0.0.10.module",
+        "group": "dev.shushant.kourier",
+        "module": "kourier-noop-iossimulatorarm64",
+        "version": "0.0.10"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../kourier-noop-iossimulatorarm64/0.0.10/kourier-noop-iossimulatorarm64-0.0.10.module",
+        "group": "dev.shushant.kourier",
+        "module": "kourier-noop-iossimulatorarm64",
+        "version": "0.0.10"
+      }
+    }
+  ]
+}
