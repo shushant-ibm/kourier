@@ -1,0 +1,123 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../kourier-interceptor-ktor/0.0.9/kourier-interceptor-ktor-0.0.9.module",
+    "group": "dev.shushant.kourier",
+    "module": "kourier-interceptor-ktor",
+    "version": "0.0.9",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.7.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "androidApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kourier-interceptor-ktor.aar",
+          "url": "kourier-interceptor-ktor-android-0.0.9.aar",
+          "size": 17241,
+          "sha512": "0cbeca66824b741bc03a7a6d93ff8dffbf70aee1c1dd0899bb227225051d43aec5b20fb32791095a0c2c50824e55c387db61f6dd72285e551a4f726549b2e79a",
+          "sha256": "7adf6e534841a63190ef63ed1d1936ea8cac48c6e7fd8262456884117df2cceb",
+          "sha1": "98d4b1f98411d2d29ff6e2c1e338076f660c914e",
+          "md5": "f45a5440db1aa7e9aff1c5f62780d64c"
+        }
+      ]
+    },
+    {
+      "name": "androidRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.10"
+          }
+        },
+        {
+          "group": "dev.shushant.kourier",
+          "module": "kourier-core",
+          "version": {
+            "requires": "0.0.9"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "3.1.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kourier-interceptor-ktor.aar",
+          "url": "kourier-interceptor-ktor-android-0.0.9.aar",
+          "size": 17241,
+          "sha512": "0cbeca66824b741bc03a7a6d93ff8dffbf70aee1c1dd0899bb227225051d43aec5b20fb32791095a0c2c50824e55c387db61f6dd72285e551a4f726549b2e79a",
+          "sha256": "7adf6e534841a63190ef63ed1d1936ea8cac48c6e7fd8262456884117df2cceb",
+          "sha1": "98d4b1f98411d2d29ff6e2c1e338076f660c914e",
+          "md5": "f45a5440db1aa7e9aff1c5f62780d64c"
+        }
+      ]
+    },
+    {
+      "name": "androidSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "kourier-interceptor-ktor-android-0.0.9-sources.jar",
+          "url": "kourier-interceptor-ktor-android-0.0.9-sources.jar",
+          "size": 3235,
+          "sha512": "f181d3660b6f479df67ad0d40920a85115733f6189a4491299d480ec7a1b878304ee1cecd50580e8116b37107b7b6e5584535f3949e1eadbfb54022b7c7934f3",
+          "sha256": "3d0208b85fa2f704c08320dacf950ae07d03b998c69adc8916a56fa620992e9d",
+          "sha1": "ea3a17af72667113f6b9eb476925148b33f87301",
+          "md5": "42021d356154316315093f8da6d8b16d"
+        }
+      ]
+    }
+  ]
+}

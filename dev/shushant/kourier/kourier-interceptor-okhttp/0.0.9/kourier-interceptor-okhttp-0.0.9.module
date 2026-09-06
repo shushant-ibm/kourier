@@ -1,0 +1,117 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.shushant.kourier",
+    "module": "kourier-interceptor-okhttp",
+    "version": "0.0.9",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.7.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kourier-interceptor-okhttp-0.0.9.aar",
+          "url": "kourier-interceptor-okhttp-0.0.9.aar",
+          "size": 9136,
+          "sha512": "112b4cbc1b13ce4c9e93bc02895103d73789f009d2779f47bae7afd12a3d498e5cbc54fa28dccceeaf6568a4b29a29eedb0021dfd466445faec00f6cc2c3f450",
+          "sha256": "db9a1d980f1488dce831cbefde8968ecddddba421df4c14c9a1001ceb5f004e2",
+          "sha1": "f93daebc2739063392cc17ed391617ef7d09eea7",
+          "md5": "1d6ac6191112b321103714225b5ed200"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "dev.shushant.kourier",
+          "module": "kourier-core",
+          "version": {
+            "requires": "0.0.9"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "okhttp",
+          "version": {
+            "requires": "5.5.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kourier-interceptor-okhttp-0.0.9.aar",
+          "url": "kourier-interceptor-okhttp-0.0.9.aar",
+          "size": 9136,
+          "sha512": "112b4cbc1b13ce4c9e93bc02895103d73789f009d2779f47bae7afd12a3d498e5cbc54fa28dccceeaf6568a4b29a29eedb0021dfd466445faec00f6cc2c3f450",
+          "sha256": "db9a1d980f1488dce831cbefde8968ecddddba421df4c14c9a1001ceb5f004e2",
+          "sha1": "f93daebc2739063392cc17ed391617ef7d09eea7",
+          "md5": "1d6ac6191112b321103714225b5ed200"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "kourier-interceptor-okhttp-0.0.9-sources.jar",
+          "url": "kourier-interceptor-okhttp-0.0.9-sources.jar",
+          "size": 3805,
+          "sha512": "f808037b23503dbe5b11c6b7284125307837c68f8854ae9fdcd571eb9160bfa3f1976a66222417492b23fba578b4f7723e237099f999963252475c27a1a838fb",
+          "sha256": "fc58d2ab46aff451963a2c517574a695ae37378d830ae78d193b86b35276d81c",
+          "sha1": "fd6c9a9ca3ce9c3bfef7d9ce170339ff47ea004d",
+          "md5": "26852e949533d6a66ed7df3a7268a43e"
+        }
+      ]
+    }
+  ]
+}

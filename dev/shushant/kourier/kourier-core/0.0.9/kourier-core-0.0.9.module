@@ -1,0 +1,247 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.shushant.kourier",
+    "module": "kourier-core",
+    "version": "0.0.9",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.7.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.8.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.33.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kourier-core-metadata-0.0.9.jar",
+          "url": "kourier-core-0.0.9.jar",
+          "size": 23923,
+          "sha512": "39b329b68cd4cdce3998d1c86e97f6fb253157b12e9f5400ce42809a2def1c96126ff6d3866e8a0f2ae752469314709c09ce87bc36c070e8ae2a46a18b5b6ab2",
+          "sha256": "f68c9d6fdd5b11da008df26045882992f8f702908db11c415d6a822e868950d9",
+          "sha1": "831558612f5e544bd33ce618f513b1b9a38f7c6c",
+          "md5": "ef3b117c53f02d264a042a6daadfa42c"
+        }
+      ]
+    },
+    {
+      "name": "metadataSourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "kourier-core-kotlin-0.0.9-sources.jar",
+          "url": "kourier-core-0.0.9-sources.jar",
+          "size": 20944,
+          "sha512": "a02b59ca978aa15c340660ddeae386511b6a7d30d55e6ed88776c0412353bbc3f722abcf7fd1eb690dfc26d8fbe84e8a14a3fee99b7b5f09e77f4946ebf7fa20",
+          "sha256": "fa77a5dd664bd5a1a08cc3ced7927a9e8cefbd31f5f946bda5b52fb272a658cb",
+          "sha1": "f3157de64d38de552efe82b155269db60c15546f",
+          "md5": "8657b48b25702befef903dae13e5ac02"
+        }
+      ]
+    },
+    {
+      "name": "androidApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../kourier-core-android/0.0.9/kourier-core-android-0.0.9.module",
+        "group": "dev.shushant.kourier",
+        "module": "kourier-core-android",
+        "version": "0.0.9"
+      }
+    },
+    {
+      "name": "androidRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../kourier-core-android/0.0.9/kourier-core-android-0.0.9.module",
+        "group": "dev.shushant.kourier",
+        "module": "kourier-core-android",
+        "version": "0.0.9"
+      }
+    },
+    {
+      "name": "androidSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../kourier-core-android/0.0.9/kourier-core-android-0.0.9.module",
+        "group": "dev.shushant.kourier",
+        "module": "kourier-core-android",
+        "version": "0.0.9"
+      }
+    },
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../kourier-core-iosarm64/0.0.9/kourier-core-iosarm64-0.0.9.module",
+        "group": "dev.shushant.kourier",
+        "module": "kourier-core-iosarm64",
+        "version": "0.0.9"
+      }
+    },
+    {
+      "name": "iosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../kourier-core-iosarm64/0.0.9/kourier-core-iosarm64-0.0.9.module",
+        "group": "dev.shushant.kourier",
+        "module": "kourier-core-iosarm64",
+        "version": "0.0.9"
+      }
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../kourier-core-iosarm64/0.0.9/kourier-core-iosarm64-0.0.9.module",
+        "group": "dev.shushant.kourier",
+        "module": "kourier-core-iosarm64",
+        "version": "0.0.9"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../kourier-core-iossimulatorarm64/0.0.9/kourier-core-iossimulatorarm64-0.0.9.module",
+        "group": "dev.shushant.kourier",
+        "module": "kourier-core-iossimulatorarm64",
+        "version": "0.0.9"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../kourier-core-iossimulatorarm64/0.0.9/kourier-core-iossimulatorarm64-0.0.9.module",
+        "group": "dev.shushant.kourier",
+        "module": "kourier-core-iossimulatorarm64",
+        "version": "0.0.9"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../kourier-core-iossimulatorarm64/0.0.9/kourier-core-iossimulatorarm64-0.0.9.module",
+        "group": "dev.shushant.kourier",
+        "module": "kourier-core-iossimulatorarm64",
+        "version": "0.0.9"
+      }
+    }
+  ]
+}
