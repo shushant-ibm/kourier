@@ -54,13 +54,13 @@ Kourier iOS is distributed as a pre-compiled binary XCFramework supporting **bot
 #### 1. Add Package Dependency
 In Xcode: **File > Add Package Dependencies...**
 - **Repository URL:** `https://github.com/shushant-ibm/kourier.git`
-- **Dependency Rule:** `Up to Next Major` from `0.0.9` (or exact version `0.0.9`)
+- **Dependency Rule:** `Up to Next Major` from `0.0.10` (or exact version `0.0.10`)
 - Add **`KourierIos`** to your target.
 
 *Or via `Package.swift`:*
 ```swift
 dependencies: [
-    .package(url: "https://github.com/shushant-ibm/kourier.git", from: "0.0.9")
+    .package(url: "https://github.com/shushant-ibm/kourier.git", from: "0.0.10")
 ]
 ```
 
@@ -134,10 +134,10 @@ dependencyResolutionManagement {
 ```kotlin
 dependencies {
     // Debug builds: Full in-app inspector UI, floating bubble, notification, & interceptors
-    debugImplementation("dev.shushant.kourier:kourier-android:0.0.9")
+    debugImplementation("dev.shushant.kourier:kourier-android:0.0.10")
 
     // Release builds: Zero-cost pass-through stubs (0KB background services, stripped bytecode)
-    releaseImplementation("dev.shushant.kourier:kourier-noop:0.0.9")
+    releaseImplementation("dev.shushant.kourier:kourier-noop:0.0.10")
 }
 ```
 
